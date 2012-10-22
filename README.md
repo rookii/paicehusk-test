@@ -16,7 +16,6 @@ The library was developed using only functionality provided by the Go standard L
 ###NewRuleTable
 Takes a slice of strings in rule format, validates them and returns a new RuleTable.
 ```go
-// NewRuleTable returns a new RuleTable instance
 func NewRuleTable(f []string) (table *RuleTable)
 
 // Example usage:
@@ -26,7 +25,6 @@ var DefaultRules = NewRuleTable(strings.Split(defaultRules, "\n"))
 ###DefaultRules
 Provides a default set of rules for a user.
 ```go
-// DefaultRules is a default ruleset for the english language.
 var DefaultRules = NewRuleTable(strings.Split(defaultRules, "\n"))
 
 // Example Usage:
@@ -36,7 +34,7 @@ for i := range testFile {
 ```
 
 ###ValidRule
-Extracts a rule from the provided string using the regexp ```[a-zA-Z]*\\*?[0-9][a-zA-z]*[.>]```gim
+Extracts a rule from the provided string using the regexp ```[a-zA-Z]*\\*?[0-9][a-zA-z]*[.>]```
 ```go
 // Validates a rule
 func ValidRule(s string) (rule string, ok bool)
@@ -84,6 +82,7 @@ To demonstrate the use of the library and to provide an easy to use stemming ser
 I used the [Bootstrap](http://twitter.github.com/bootstrap/) front-end framework so I didn't have to employ my terrible design skills.
 
 ![paicehusk.appspot.com](http://i.imgur.com/8APrn.png)
+
 
 The page communicates with the server via Ajax requests.
 
