@@ -1,0 +1,62 @@
+********************
+* Evaluation Data  *
+********************
+
+FileA: wl2/wl2.txt
+FileB: wl2/wl2-go.txt
+
+The mean number of words pre conflation class: 1.320605
+
+The Index Compression Factor:                  0.24277134
+
+The number of words and stems that differ:     15461
+
+
+The mean number characters removed:            1.512588
+
+The median number characters removed:          1.0
+
+The mode number characters removed:            0
+                                              
+
+The characters removed table:                   Number of words with 0 Chars Removed 9697
+                                               Number of words with 1 Chars Removed 4737
+                                               Number of words with 2 Chars Removed 4152
+                                               Number of words with 3 Chars Removed 3705
+                                               Number of words with 4 Chars Removed 1299
+                                               Number of words with 5 Chars Removed 982
+                                               Number of words with 6 Chars Removed 346
+                                               Number of words with 7 Chars Removed 145
+                                               Number of words with 8 Chars Removed 49
+                                               Number of words with 9 Chars Removed 26
+                                               Number of words with 10 Chars Removed 4
+                                               Number of words with 11 Chars Removed 0
+                                               Number of words with 12 Chars Removed 1
+                                               
+
+The mean Hamming distance:                     1.5480651
+
+The median Hamming distance:                   1.0
+
+The mode Hamming distance:                     0
+                                               
+
+The Hamming distance table:                    Number of words with 0 Hamming distance 9682
+                                               Number of words with 1 Hamming distance 4586
+                                               Number of words with 2 Hamming distance 4197
+                                               Number of words with 3 Hamming distance 3450
+                                               Number of words with 4 Hamming distance 1528
+                                               Number of words with 5 Hamming distance 1102
+                                               Number of words with 6 Hamming distance 353
+                                               Number of words with 7 Hamming distance 153
+                                               Number of words with 8 Hamming distance 56
+                                               Number of words with 9 Hamming distance 28
+                                               Number of words with 10 Hamming distance 7
+                                               Number of words with 11 Hamming distance 0
+                                               Number of words with 12 Hamming distance 1
+                                               
+
+The Fox and Frakes Similarity Metric:          0.64596766
+
+The Chris O'Neill Similarity Metric:           80.50808504915129%
+

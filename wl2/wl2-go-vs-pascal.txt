@@ -1,0 +1,42 @@
+********************
+* Evaluation Data  *
+********************
+
+FileA: wl2/wl2-pascal.txt
+FileB: wl2/wl2-go.txt
+
+The mean number of words pre conflation class: 1.320605
+
+The Index Compression Factor:                  0.24277134
+
+The number of words and stems that differ:     60
+
+
+The mean number characters removed:            0.0028238476
+
+The median number characters removed:          0.0
+
+The mode number characters removed:            0
+                                              
+
+The characters removed table:                   Number of words with 0 Chars Removed 25090
+                                               Number of words with 1 Chars Removed 35
+                                               Number of words with 2 Chars Removed 18
+                                               
+
+The mean Hamming distance:                     0.0034204351
+
+The median Hamming distance:                   0.0
+
+The mode Hamming distance:                     0
+                                               
+
+The Hamming distance table:                    Number of words with 0 Hamming distance 25083
+                                               Number of words with 1 Hamming distance 34
+                                               Number of words with 2 Hamming distance 26
+                                               
+
+The Fox and Frakes Similarity Metric:          292.36047
+
+The Chris O'Neill Similarity Metric:           99.92489626005913%
+

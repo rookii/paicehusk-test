@@ -1,0 +1,50 @@
+********************
+* Evaluation Data  *
+********************
+
+FileA: wl3/wl3-pascal.txt
+FileB: wl3/wl3-go.txt
+
+The mean number of words pre conflation class: 2.096667
+
+The Index Compression Factor:                  0.5230526
+
+The number of words and stems that differ:     407
+
+
+The mean number characters removed:            0.0015476075
+
+The median number characters removed:          0.0
+
+The mode number characters removed:            0
+                                              
+
+The characters removed table:                   Number of words with 0 Chars Removed 309155
+                                               Number of words with 1 Chars Removed 236
+                                               Number of words with 2 Chars Removed 117
+                                               Number of words with 3 Chars Removed 1
+                                               Number of words with 4 Chars Removed 0
+                                               Number of words with 5 Chars Removed 0
+                                               Number of words with 6 Chars Removed 1
+                                               
+
+The mean Hamming distance:                     0.0019062388
+
+The median Hamming distance:                   0.0
+
+The mode Hamming distance:                     0
+                                               
+
+The Hamming distance table:                    Number of words with 0 Hamming distance 309103
+                                               Number of words with 1 Hamming distance 233
+                                               Number of words with 2 Hamming distance 168
+                                               Number of words with 3 Hamming distance 5
+                                               Number of words with 4 Hamming distance 0
+                                               Number of words with 5 Hamming distance 0
+                                               Number of words with 6 Hamming distance 1
+                                               
+
+The Fox and Frakes Similarity Metric:          524.5932
+
+The Chris O'Neill Similarity Metric:           99.95867200228933%
+

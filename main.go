@@ -7,7 +7,6 @@ import (
 	"github.com/Rookii/paicehusk"
 	"io"
 	"os"
-	//"regexp"
 )
 
 func readFile(path string) (lines []string, err error) {
@@ -43,21 +42,20 @@ func main() {
 	out := bufio.NewWriter(os.Stdout)
 	defer out.Flush()
 
-	testFile, err := readFile("300TWL.txt")
+	testFile, err := readFile("wl3/wl3.txt")
 	if err != nil {
 		panic(err)
 	}
-	java, err := readFile("300TWL.txt.stm")
+	compare, err := readFile("wl3/wl3-pascal.txt")
 	if err != nil {
 		panic(err)
 	}
 
-	//reg := regexp.MustCompile("[\\w]+")
 	count := 0
 	for i := range testFile {
-		if paicehusk.DefaultRules.Stem(testFile[i]) != java[i] {
+		if paicehusk.DefaultRules.Stem(testFile[i]) != compare[i] {
 			out.WriteString(fmt.Sprintf("Line %v: %v |%v| |%v|\n",
-				i+1, testFile[i], paicehusk.DefaultRules.Stem(testFile[i]), java[i]))
+				i+1, testFile[i], paicehusk.DefaultRules.Stem(testFile[i]), compare[i]))
 			count++
 		}
 	}

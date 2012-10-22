@@ -1,0 +1,64 @@
+********************
+* Evaluation Data  *
+********************
+
+FileA: wl3/wl3-porter.txt
+FileB: wl3/wl3-go.txt
+
+The mean number of words pre conflation class: 2.096667
+
+The Index Compression Factor:                  0.5230526
+
+The number of words and stems that differ:     151280
+
+
+The mean number characters removed:            1.0402863
+
+The median number characters removed:          0.0
+
+The mode number characters removed:            0
+                                              
+
+The characters removed table:                   Number of words with 0 Chars Removed 174675
+                                               Number of words with 1 Chars Removed 34284
+                                               Number of words with 2 Chars Removed 55196
+                                               Number of words with 3 Chars Removed 25268
+                                               Number of words with 4 Chars Removed 7957
+                                               Number of words with 5 Chars Removed 7133
+                                               Number of words with 6 Chars Removed 2618
+                                               Number of words with 7 Chars Removed 1356
+                                               Number of words with 8 Chars Removed 628
+                                               Number of words with 9 Chars Removed 240
+                                               Number of words with 10 Chars Removed 109
+                                               Number of words with 11 Chars Removed 23
+                                               Number of words with 12 Chars Removed 20
+                                               Number of words with 13 Chars Removed 3
+                                               
+
+The mean Hamming distance:                     1.1113923
+
+The median Hamming distance:                   0.0
+
+The mode Hamming distance:                     0
+                                               
+
+The Hamming distance table:                    Number of words with 0 Hamming distance 158230
+                                               Number of words with 1 Hamming distance 49688
+                                               Number of words with 2 Hamming distance 54104
+                                               Number of words with 3 Hamming distance 26179
+                                               Number of words with 4 Hamming distance 8615
+                                               Number of words with 5 Hamming distance 7450
+                                               Number of words with 6 Hamming distance 2699
+                                               Number of words with 7 Hamming distance 1399
+                                               Number of words with 8 Hamming distance 710
+                                               Number of words with 9 Hamming distance 264
+                                               Number of words with 10 Hamming distance 119
+                                               Number of words with 11 Hamming distance 28
+                                               Number of words with 12 Hamming distance 22
+                                               Number of words with 13 Hamming distance 3
+                                               
+
+The Fox and Frakes Similarity Metric:          0.89977235
+
+The Chris O'Neill Similarity Metric:           85.93817091096034%
+
