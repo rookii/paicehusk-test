@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"bytes"
 	"fmt"
-	"github.com/Rookii/paicehusk"
+	"github.com/rookii/paicehusk"
 	"io"
 	"os"
 )
